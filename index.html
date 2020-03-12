@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Domestic Violence is bad</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <span class="open-slide">
+                    <a onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                            <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                            <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                        </svg>
+                    </a>
+                </span>
+
+                <ul class="navbar-text">
+                    <h1 style="font-family:ramabhadraregular,sans-serif,serif;font-size:20px;font-style:normal;">
+                        Domestic Violence is bad</h1>
+                </ul>
+
+                <div id="slide-menu" class="side-nav">
+                    <a class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                    <a href="#overview">Overview</a>
+                    <a href="#coercive-control">Coercive control</a>
+                    <a href="#physical-abuse">Physical abuse</a>
+                    <a href="#emotional-abuse">Emotional abuse</a>
+                </div>
+                <script>
+                    function openSlideMenu() {
+                        document.getElementById('slide-menu').style.width = '250px';
+                        document.getElementById('main').style.marginLeft = '250px';
+
+                    }
+                    function closeSlideMenu() {
+                        document.getElementById('slide-menu').style.width = '0px';
+                        document.getElementById('main').style.marginLeft = '0px';
+
+                    }
+                </script>
+            </nav>
+        </header>
+        <div id="content">
+            <div class="top-parallax-image">
+                <div class="top-heading">
+                    <h1 style="font-family:ramabhadraregular,sans-serif,serif;font-size:40px;font-style:normal;">
+                        Thousands
+                        of people are affected</h1>
+                </div>
+                <div class="bottom-heading">
+                    <h3 style="font-family:ramabhadraregular,sans-serif,serif;font-size:20px;font-style:normal;">And
+                        most of
+                        them think its normal</h3>
+                </div>
+            </div>
+
+            <div id="main">
+
+                <div class="main-text">
+                    <section id="overview">
+                        <h1>Overview</h1>
+                        <p>This website is to inform you about the diffrent types of domestic violence, statistics and
+                            how
+                            they affect people.
+                            To veiw the contents click the hamburger menu located on the far left of the nav bar. the
+                            types
+                            of domestic violence you
+                            will be informed about are *insert types of domestic violence here*
+                        </p>
+                    </section>
+                    <section id="coercive-control">
+                        <h1>Coercive control</h1>
+                        <p>
+                            control of you and insure that you stay theirs. Some who suffer from coercive control may
+                            experience their partner monitoring your
+                            activity throughout the day, Social isolation, make you believe that they are right and
+                            always
+                            right, denying your freedom and making
+                            you less independent, putting you down, limiting your access to money and turning your kids
+                            against you. There are more ways that you
+                            may experience coercive control, for more detail go to
+                            https://www.healthline.com/health/coercive-control#manipulating-kids
+                        </p>
+                    </section>
+                    <section id="physical-abuse">
+                        <h1>Physical Abuse</h1>
+                        <p>Physical abuse is when a family member or partner physically abuses you,
+                            forcing you into something that you are not comfortable doing, being violent because you did
+                            something
+                            wrong or upset them, they had a bad day and they are taking it out on you or because they
+                            are drunk or high.</p>
+                    </section>
+                    <section id="emotional-abuse">
+                        <h1>Emotional Abuse</h1>
+                        <p>Emotional abuse is a form of psychological abuse where a family member or partner plays with
+                            your emotions to get their
+                            way or exposes you to behavior that may result in psychological trauma, including anxiety,
+                            chronic depression,
+                            or post-traumatic stress disorder.</p>
+                    </section>
+                    <section id=satistics>
+                        <h1>Statistics</h1>
+                        <div class="statistics-section">
+                            <section>
+                                <div class="statistics-section-content">
+                                    <p>34 out of 50 mothers reported emotional abuse</p>
+                                </div>
+                            </section>
+                            <section>
+                                <div class="statistics-section-content">
+                                    <p>test</p>
+                                </div>
+                            </section>
+                        </div>
+                    </section>
+                </div>
+                </section>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="observer.js"></script>
+</body>
+
+</html>
