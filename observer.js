@@ -4,7 +4,7 @@ const statisticsSection = document.querySelector(".statistics-section");
 
 const appearOptions = {
     threshold: 1,
-    rootMargin: "0px 0px -400px 0px"
+    rootMargin: "0px 0px -100px 0px"
 };
 
 const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {

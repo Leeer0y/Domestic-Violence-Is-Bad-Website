@@ -134,6 +134,10 @@ body {
     color: white;
 }
 
+.statistics-section h1 {
+    color: white;
+}
+
 .statistics-section-content {
     /* fade stuff */
     opacity: 0;
