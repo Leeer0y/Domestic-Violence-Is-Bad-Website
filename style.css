@@ -41,6 +41,11 @@ body {
     font-size: 17px;
 }
 
+.hamburger-menu:hover {
+    background-color: grey;
+    color: #000;
+}
+
 .side-nav {
     height: 100%;
     width: 0;
@@ -107,6 +112,10 @@ body {
     font-family:ramabhadraregular,sans-serif,serif;font-size:30px;font-style:normal;
 }
 
+.main-text h2 {
+    font-family:ramabhadraregular,sans-serif,serif;font-size:25px;font-style:normal;
+}
+
 .main-text p {
     font-family:ramabhadraregular,sans-serif,serif;font-size:20px;font-style:normal;
 }
@@ -117,36 +126,4 @@ body {
 
 @media(max-width:568px){
     .navbar-text{display:none}
-}
-
-/* Statistics */ 
-
-.statistics-section section {
-    /* margin = -.main-text margin*/
-    margin: -20px;
-    background-color: rgb(48, 48, 48);
-    height: 100vh;
-    background-position: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-.statistics-section p {
-    color: white;
-}
-
-.statistics-section h1 {
-    color: white;
-}
-
-.statistics-section-content {
-    /* fade stuff */
-    opacity: 0;
-    transition: opacity 250ms ease-in;
-}
-.statistics-section-content.appear {
-    opacity: 1;
 }
