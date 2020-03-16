@@ -41,6 +41,11 @@ body {
     font-size: 17px;
 }
 
+.hamburger-menu:hover {
+    background-color: grey;
+    color: #000;
+}
+
 .side-nav {
     height: 100%;
     width: 0;
@@ -100,11 +105,15 @@ body {
 /* Main Text */
 
 .main-text {
-    margin: 20px;
+    margin: 30px;
 }
 
 .main-text h1 {
     font-family:ramabhadraregular,sans-serif,serif;font-size:30px;font-style:normal;
+}
+
+.main-text h2 {
+    font-family:ramabhadraregular,sans-serif,serif;font-size:25px;font-style:normal;
 }
 
 .main-text p {
@@ -115,38 +124,84 @@ body {
     font-family:ramabhadraregular,sans-serif,serif;font-size:20px;font-style:normal;
 }
 
-@media(max-width:568px){
-    .navbar-text{display:none}
+/* Helpline Section Style */
+.helplines-containter {
+    background-color: rgb(206, 206, 206);
+    height: 60vh;
 }
 
-/* Statistics */ 
+.heplines-info-container {
+    margin: 0 auto;
+    /* width: 900px; */
+    width: 1160px;
+}
 
-.statistics-section section {
-    /* margin = -.main-text margin*/
-    margin: -20px;
-    background-color: rgb(48, 48, 48);
-    height: 100vh;
-    background-position: center;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#support-and-helplines section {
     text-align: center;
+    float: left;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 150px;
+    background-color: orangered;
+    position: relative;
 }
 
-.statistics-section p {
+
+.helplines-body-text {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(56, 56, 56);
+}
+
+/* About footer */
+
+.about-footer {
+    position: relative;
+    background-color: rgb(56, 56, 56);
     color: white;
+    height: 500px;
 }
 
-.statistics-section h1 {
-    color: white;
+.about-text-container {
+    position: absolute;
+    display: inline-block;
+    margin: 30px;
+
+    width: 700px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
-.statistics-section-content {
-    /* fade stuff */
-    opacity: 0;
-    transition: opacity 250ms ease-in;
+.code-parallax-image {
+    background-image: url(resources/Images/CodeStockImage.jpg);
+    padding: 100px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+    float: right;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.statistics-section-content.appear {
-    opacity: 1;
+
+@media(max-width:568px){
+    .navbar-text{display:none};
+}
+
+/* For helpline section */
+@media(max-width:1170px){
+    .heplines-info-container{width: 900px};
+    .helplines-containter{height: 70vh};
+}
+@media(max-width:900px){
+    .heplines-info-container{width: 580px};
+}
+@media(max-width:580px){
+    .heplines-info-container{width: 270px};
+    .helplines-containter{height: 100vh};
 }
