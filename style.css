@@ -127,23 +127,48 @@ body {
 /* Helpline Section Style */
 .helplines-containter {
     background-color: rgb(206, 206, 206);
-    height: 50vh;
+    height: 60vh;
 }
 
 .heplines-info-container {
     margin: 0 auto;
-    width: 750px;
+    /* width: 900px; */
+    width: 1160px;
 }
 
 #support-and-helplines section {
     text-align: center;
     float: left;
     margin: 20px;
-    width: 200px;
+    margin-bottom: 50px;
+    width: 250px;
     height: 150px;
     background-color: orangered;
+    position: relative;
+}
+
+
+.helplines-body-text {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(56, 56, 56);
 }
 
 @media(max-width:568px){
-    .navbar-text{display:none}
+    .navbar-text{display:none};
+}
+
+
+@media(max-width:1170px){
+    .heplines-info-container{width: 900px};
+    .helplines-containter{height: 70vh};
+}
+@media(max-width:900px){
+    .heplines-info-container{width: 580px};
+}
+@media(max-width:580px){
+    .heplines-info-container{width: 270px};
+    .helplines-containter{height: 100vh};
 }
