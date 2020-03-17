@@ -190,22 +190,24 @@ body {
     background-size: cover;
 }
 
-@media(max-width:568px){
+/* Mobile Optimisation*/
+@media(max-width:568px) {
     .navbar-text{display:none};
+    .helplines-containter{height: 1000px}
+    .about-text-container{width: 300px}
+}
+@media(max-width:1024px) {
+    .top-parallax-image{background-attachment: unset}
+    .code-parallax-image{background-attachment: unset; opacity: 0;}
 }
 
 /* For helpline section */
-@media(max-width:1170px){
+@media(max-width:1170px) {
     .heplines-info-container{width: 900px}
 }
-@media(max-width:900px){
+@media(max-width:900px) {
     .heplines-info-container{width: 580px}
 }
-@media(max-width:580px){
+@media(max-width:580px) {
     .heplines-info-container{width: 270px}
-    .top-parallax-image{background-attachment: unset}
-    .helplines-containter{height: 1000px}
-    .code-parallax-image{background-attachment: unset}
-    .code-parallax-image{opacity: 0}
-    .about-text-container{width: 300px}
 }
