@@ -128,7 +128,7 @@ body {
 /* Helpline Section Style */
 .helplines-containter {
     background-color: rgb(206, 206, 206);
-    height: 60vh;
+    height: 600px;
 }
 
 .heplines-info-container {
@@ -196,13 +196,16 @@ body {
 
 /* For helpline section */
 @media(max-width:1170px){
-    .heplines-info-container{width: 900px};
-    .helplines-containter{height: 70vh};
+    .heplines-info-container{width: 900px}
 }
 @media(max-width:900px){
-    .heplines-info-container{width: 580px};
+    .heplines-info-container{width: 580px}
 }
 @media(max-width:580px){
-    .heplines-info-container{width: 270px};
-    .helplines-containter{height: 100vh};
+    .heplines-info-container{width: 270px}
+    .top-parallax-image{background-attachment: unset}
+    .helplines-containter{height: 1000px}
+    .code-parallax-image{background-attachment: unset}
+    .code-parallax-image{opacity: 0}
+    .about-text-container{width: 300px}
 }
