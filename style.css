@@ -192,13 +192,14 @@ body {
 
 /* Mobile Optimisation*/
 @media(max-width:568px) {
-    .navbar-text{display:none};
+    .navbar-text{display:none}
     .helplines-containter{height: 1000px}
     .about-text-container{width: 300px}
 }
 @media(max-width:1024px) {
     .top-parallax-image{background-attachment: unset}
-    .code-parallax-image{background-attachment: unset; opacity: 0;}
+    .code-parallax-image{background-attachment: unset}
+    .code-parallax-image{opacity: 0}
 }
 
 /* For helpline section */
