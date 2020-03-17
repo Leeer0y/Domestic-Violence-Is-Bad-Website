@@ -16,6 +16,7 @@ body {
 
 /* Navbar */
 .navbar {
+    z-index: 1;
     background-color: rgba(56, 56, 56, 0.8);
     color:  #fff;
     width: 100%;
